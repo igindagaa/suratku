@@ -1,0 +1,160 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#container{
+    display: flex;
+    height: 100vh;
+    
+    
+    aside{
+        width: 15%;
+        display: inline-block;
+        background-color: #7077A1;
+        text-align: center;
+        padding: 20px;
+        color: white;
+        font-size: 18px;
+        padding-top: 200px;
+        // margin-top: 30px;
+    }
+        img{
+            width: 100px;
+            border-radius: 50px;
+        }
+        p{
+            padding-bottom: 20px;
+            font-weight: bold;
+           
+        }
+        ul{
+            list-style: none;
+            
+            li{
+                padding-bottom: 5px;
+            }
+        }
+    main{
+            width: 85%;
+            background-color: #2D3250;
+        header{
+            nav{
+                display: flex;
+                justify-content: space-between;
+                color: white;
+                background-color: #424769;
+                padding: 20px;
+                
+
+                    .icon{
+                         font-size:30px ;
+                        }
+                    .icone{
+                        font-size: 20px;
+                    }
+                    }
+                }
+
+        .kumpulansurat{
+            h2{
+                color: white;
+                text-align: center;
+                padding: 10px;
+             }
+            .boxsurat{
+                background-color: #7077A1;
+                padding: 20px;
+                border-radius: 10px;
+                margin: 20px;
+                height: 230px;
+                .box{
+                    display: flex;
+                    gap: 10px;
+                    border-radius: 30px;
+                    
+                    .surat{
+                        background-color: #2D3250;
+                        width: 200px;
+                        padding: 20px;
+                        color: white;
+                        border-radius: 10px;
+                       
+                        .profil{
+                            display: flex;
+                            text-align: center;
+                            img{
+                                width: 50px;
+                                border-radius: 25px;
+                            }
+
+                        }
+                        .infosurat{
+                            display: flex;
+                            text-align: center;
+                            padding-top: 15px;
+                            img{
+                                width: 70px;
+                                height: 70px;
+                                border-radius: 40px
+                                
+                            }
+                            .textinfo{
+                                padding-top: 10px;
+                                                          }
+                        }
+                    }
+                }
+                .lainnya{
+                    display: flex;
+                    justify-content: end;
+                    font-size: 20px;  
+                    width: 100%;
+                    
+                    
+                a{
+                    background-color: #2D3250;
+                    border-radius: 3px;
+                    color: white;
+                    padding-bottom: 5px;
+                    
+                }
+                    
+                    
+                }
+            }
+        } 
+        .kumpulansurat1{
+            h2{
+                color: white;
+                text-align: center;
+                padding: 10px;
+
+            }
+         .boxsurat1{
+            background-color: #7077A1;
+            padding: 20px;
+            border-radius: 10px;
+            height: 230px;
+            margin: 20px;
+            .box1{
+                display: flex;
+                
+                .surat1{
+                    .profil1{
+
+                    }
+                    .infosurat1{
+                        .textinfo1{
+
+                        }
+                    }
+                }
+            }
+         }    
+        }       
+        }
+        
+}
+
+
